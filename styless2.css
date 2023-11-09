@@ -1,0 +1,134 @@
+body{
+    background-color: #f0f2f4;
+}
+.quizarea{
+   
+    width:auto;
+    height: 200px;
+}
+.gradient-background {
+    /* background-color: #1717b7;
+background-image: linear-gradient(160deg, #1717b7 0%, #85f7eb 100%); */
+
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #12c2e9 0%, #c471ed 46%, #f64f59 100%);
+    animation: gradient-animation 18s ease infinite;
+  }
+  .gradient-background2 {
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+.qandans{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    margin-left: 250px;
+    margin-top: 40px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.upperbar{
+    background-color: #3a28a7;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#timer{
+    width: 150px;
+    height: 110px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 80px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px; 
+    font-weight: bold;
+    /* color: #ffffff; */
+    /* background-color: #007bff;  */
+    padding: 10px; 
+    border-radius: 10px; 
+   
+}
+.btn{
+    background-color: #fff;
+    color:#222;
+    font-weight: 500;
+    width: 100%;
+    border:1px solid #222;
+    padding:10px;
+    margin:10px  0px;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.btn:hover:not([disabled]){
+    background:#222;
+    color:#fff;
+}
+.btn:disabled{
+
+    cursor:no-drop;
+}
+#next-btn{
+    background:#001e4d;
+    color:#fff;
+    font-weight:500;
+    width:150px;
+    border:0;
+    padding:10px;
+    margin:20px auto 0;
+    border-radius: 4px;
+    cursor:pointer;
+    display:none;
+
+}
+.correct{
+    background:#9aeabc;
+
+}
+.incorrect{
+    background:#ff9393;
+}
+
+.logoimage{
+    width: 140px;
+    height: 60px;
+    margin-right: 50px;
+   
+}
+.mainimage{
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+
+}
+#timertext{
+    font-size: 10px;
+    margin-bottom:25px;
+}
+#progress {
+	background:#3a28a7;
+	height:100%;
+	width:0%;
+	text-align:right;
+	font:bold 12px arial;
+	border-right:1px silver solid;
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+	line-height:30px;
+	color:#444;
+	-webkit-transition:width 0.5s linear; /* For Safari 3.1 to 6.0 */
+	transition:width 0.5s linear;
+}
+#progressContainer {
+	width:90%;
+	margin:0 auto;
+	height:10px;
+	border:1px silver solid;
+	border-radius:4px;
+	background:white;
+}

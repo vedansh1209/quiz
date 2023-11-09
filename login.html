@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="styless2.css">
+</head>
+<body style="background-color: #8E2DE2;">
+    <div class="container-fluid upperbar">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <a href="index.html"><img class="logoimage" src="images/logo2.png" alt="hii" width="200px" height="25px"></a>
+            <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="features.html" class="nav-link px-2 text-white">Features</a></li>
+            <li><a href="faq.html" class="nav-link px-2 text-white">FAQs</a></li>
+            <li><a href="aboutus.html" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+  
+        
+  
+          <div class="text-end">
+            <button id="loginbutton" type="button" class="btn btn-outline-light me-2">Login</button>
+         
+          </div>
+        </div>
+      </div>
+ 
+    
+    
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Login
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" id="username" placeholder="Enter username">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter password">
+                            </div>
+                            <button id="submitbutton" type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var button1=document.getElementById("submitbutton");
+        button1.addEventListener("click",()=>
+        {
+            alert("successfully login");
+            
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+.gradient-background {
+    /* background-color: #1717b7;
+background-image: linear-gradient(160deg, #1717b7 0%, #85f7eb 100%); */
+
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158d0 0%, #C850C0 46%, #FFCC70 100%);
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .introbox{
+    margin-left:100px;
+  }
+ .img2{
+    margin-left:200px;
+ }
+ .brandimage{
+    height: 100px;
+    
+ }
+/* h1{
+    font-family: 'Agbalumo', serif;
+    font-size: 100px;
+    
+
+} */
+.dropdownbox
+{
+    padding-top: 30px;
+}
+.logoimage{
+    margin-left: 50px;
+}
+/* card */
+
+
+
+.profile-card-2 {
+    max-width: 300px;
+    background-color: #FFF;
+    box-shadow: white;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(30%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+/*
+for cards*/
+.col-xl-4
+{
+  margin-bottom: 50px;
+  
+}
+.box1{
+    margin-top: 100px;
+    margin-bottom: 250px;
+}
+.box2-text{
+    margin-left: 150px;
+
+
+}
+.box2-image{
+    margin-left: 50px;
+}
+#quizes{
+    padding-bottom: 100px;
+}
+
+#coversection
+{
+    width: auto;
+    height: 100px;
+}
